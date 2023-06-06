@@ -6,7 +6,7 @@ int problem4({int digits = 3}) {
   int min = int.parse("9" * (digits - 1));
   var result = 0;
   for (var i = max; i > min; i--) {
-    for (var j = max; j > min; j -= 1) {
+    for (var j = i; j > min; j -= 1) {
       int mul = i * j;
       if (mul > result && isPalindrome(mul)) {
         if (mul == 9009) {
