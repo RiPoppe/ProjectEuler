@@ -1,5 +1,6 @@
 library all_problems;
 
-export './problem1.dart';
-export './problem2.dart';
-export './problem3.dart';
+export './problems/problem1.dart';
+export './problems/problem2.dart';
+export './problems/problem3.dart';
+export './problems/problem4.dart';

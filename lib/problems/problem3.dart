@@ -1,4 +1,4 @@
-import './utilities.dart';
+import '../utilities.dart';
 
 int problem3({int number = 100}) {
   var currentPrime = 2;

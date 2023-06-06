@@ -15,4 +15,8 @@ void main() {
     expect(problem3(number: 392832), 31);
     expect(problem3(number: 1787866), 893933);
   });
+
+  test('testProblem4', () {
+    expect(problem4(digits: 2), 9009);
+  });
 }

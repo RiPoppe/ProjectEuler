@@ -22,3 +22,9 @@ int nextPrime(int number) {
 
   return number;
 }
+
+bool isPalindrome(int input) {
+  String number = input.toString();
+  var reversedNumber = number.split('').reversed.join();
+  return number == reversedNumber;
+}
