@@ -23,4 +23,8 @@ void main() {
   test('testProblem5', () {
     expect(problem5(maxDivider: 10), 2520);
   });
+
+  test('testProblem6', () {
+    expect(problem6(max: 10), 2640);
+  });
 }
