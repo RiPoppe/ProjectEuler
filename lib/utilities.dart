@@ -6,7 +6,7 @@ bool isPrime(int number) {
   if (number % 2 == 0 || number % 3 == 0) return false;
 
   double max = sqrt(number);
-  for (var i = 5; i < max; i += 6) {
+  for (var i = 5; i <= max; i += 6) {
     if (number % i == 0 || number % (i + 2) == 0) return false;
   }
 

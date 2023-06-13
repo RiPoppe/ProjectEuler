@@ -27,4 +27,21 @@ void main() {
   test('testProblem6', () {
     expect(problem6(max: 10), 2640);
   });
+
+  test('testProblem7', () {
+    expect(problem7(max: 1), 2);
+    expect(problem7(max: 2), 3);
+    expect(problem7(max: 3), 5);
+    expect(problem7(max: 4), 7);
+    expect(problem7(max: 5), 11);
+    expect(problem7(max: 6), 13);
+  });
+
+  test('testProblem7Solution', () {
+    expect(problem7(max: 10001), 104743);
+  });
+
+  test('testProblem8', () {
+    expect(problem8(adjacentDigits: 4), 5832);
+  });
 }
