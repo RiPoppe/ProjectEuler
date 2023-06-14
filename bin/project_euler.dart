@@ -8,5 +8,7 @@ void main(List<String> arguments) {
   // print("The solution of problem 5 is: ${problem5(maxDivider: 20)}");
   // print("The solution of problem 6 is: ${problem6(max: 100)}");
   // print("The solution of problem 7 is: ${problem7(max: 10001)}");
-  print("The solution of problem 8 is: ${problem8(adjacentDigits: 13)}");
+  // print("The solution of problem 8 is: ${problem8(adjacentDigits: 13)}");
+  print(
+      "The solution of problem 9 is: product = ${problem9(sum: 1000)} ([product, a, b, c])");
 }

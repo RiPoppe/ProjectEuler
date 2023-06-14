@@ -44,4 +44,8 @@ void main() {
   test('testProblem8', () {
     expect(problem8(adjacentDigits: 4), 5832);
   });
+
+  test('testProblem9', () {
+    expect(problem9(sum: 12)[0], 60);
+  });
 }
