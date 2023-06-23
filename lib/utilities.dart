@@ -23,6 +23,13 @@ int nextPrime(int number) {
   return number;
 }
 
+int nextTriangularNumber(int number) {
+  if (number == 0) return 1;
+
+  int n = int.parse(((sqrt(8 * number + 1) - 1) / 2).toStringAsFixed(0)) + 1;
+  return int.parse((n * (n + 1) / 2).toStringAsFixed(0));
+}
+
 bool isPalindrome(int input) {
   String number = input.toString();
   var reversedNumber = number.split('').reversed.join();

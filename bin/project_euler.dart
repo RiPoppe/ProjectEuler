@@ -12,6 +12,7 @@ void main(List<String> arguments) {
   // print(
   //     "The solution of problem 9 is: product = ${problem9(sum: 1000)} ([product, a, b, c])");
   // print("The solution of problem 10 is: ${problem10(max: 2000000)}");
-  print(
-      "The solution of problem 11 is: ${problem11(length: 4, grid: Grids.grid)}");
+  // print(
+  //     "The solution of problem 11 is: ${problem11(length: 4, grid: Grids.grid)}");
+  print("The solution of problem 12 is: ${problem12(maxDivisors: 500)}");
 }

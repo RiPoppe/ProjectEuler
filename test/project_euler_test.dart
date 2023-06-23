@@ -62,4 +62,8 @@ void main() {
         problem11Diagonal01to10(length: 3, grid: Grids.smallGrid), 2 * 7 * 4);
     expect(problem11(length: 3, grid: Grids.smallGrid), 4 * 7 * 4);
   });
+
+  test('testProblem12', () {
+    expect(problem12(maxDivisors: 5), 28);
+  });
 }
