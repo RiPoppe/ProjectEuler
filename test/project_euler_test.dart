@@ -48,4 +48,18 @@ void main() {
   test('testProblem9', () {
     expect(problem9(sum: 12)[0], 60);
   });
+
+  test('testProblem10', () {
+    expect(problem10(max: 10), 17);
+  });
+
+  test('testProblem11', () {
+    expect(problem11Rows(length: 3, grid: Grids.smallGrid), 9 * 3 * 4);
+    expect(problem11Columns(length: 3, grid: Grids.smallGrid), 7 * 3 * 3);
+    expect(
+        problem11Diagonal00to11(length: 3, grid: Grids.smallGrid), 4 * 7 * 4);
+    expect(
+        problem11Diagonal01to10(length: 3, grid: Grids.smallGrid), 2 * 7 * 4);
+    expect(problem11(length: 3, grid: Grids.smallGrid), 4 * 7 * 4);
+  });
 }

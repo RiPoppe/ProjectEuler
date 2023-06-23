@@ -9,3 +9,5 @@ export './problems/problem6.dart';
 export './problems/problem7.dart';
 export './problems/problem8.dart';
 export './problems/problem9.dart';
+export './problems/problem10.dart';
+export './problems/problem11.dart';
