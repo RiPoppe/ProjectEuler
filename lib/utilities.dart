@@ -35,3 +35,26 @@ bool isPalindrome(int input) {
   var reversedNumber = number.split('').reversed.join();
   return number == reversedNumber;
 }
+
+int numberOfDivisors(int number) {
+  assert(!number.isNegative);
+
+  if (isPrime(number)) {
+    return 2;
+  } else {
+    int numberOfDivisors = 0;
+
+    for (var i = 1; i * i <= number; i++) {
+      if (number % i == 0) {
+        final pair = number ~/ i;
+        if (pair == i) {
+          numberOfDivisors++;
+        } else {
+          numberOfDivisors += 2;
+        }
+      }
+    }
+
+    return numberOfDivisors;
+  }
+}

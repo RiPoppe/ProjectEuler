@@ -66,4 +66,8 @@ void main() {
   test('testProblem12', () {
     expect(problem12(maxDivisors: 5), 28);
   });
+
+  test('testProblem13', () {
+    expect(problem13(numberOfDigits: 3, useAllNumbers: false), "834");
+  });
 }

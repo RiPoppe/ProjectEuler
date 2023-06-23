@@ -11,24 +11,3 @@ int problem12({int maxDivisors = 5}) {
   }
   return triangularNumber;
 }
-
-int numberOfDivisors(int number) {
-  if (isPrime(number)) {
-    return 2;
-  } else {
-    int numberOfDivisors = 0;
-
-    for (var i = 1; i * i <= number; i++) {
-      if (number % i == 0) {
-        final pair = number ~/ i;
-        if (pair == i) {
-          numberOfDivisors++;
-        } else {
-          numberOfDivisors += 2;
-        }
-      }
-    }
-
-    return numberOfDivisors;
-  }
-}
